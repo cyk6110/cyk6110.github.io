@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style type="text/css">
+	@media only screen and (max-width: 360px){
+	* {
+		border: 0px solid blue;
+	}
+	#navigator {
+		height: 90px;
+	}
+	#navigator a:not(.hw-item){
+		width: 100%;
+		line-height: 30px;
+	}
+	#about-me, #hwdiv, #reference {
+		display: block;
+		height: 30px;
+		width: 100%;
+		float: left;
+		text-align: center;
+		transition: background-color 0.2s;
+	}
+	#content {
+		padding-top: 120px;
+	}
+	#content h1 {
+		font-size: 25px;
+		padding-left: 2px;
+	}
+	#content p {
+		padding-left: 5px;
+		font-size: 15px;
+	}
+	#hw-drop {
+		width: 100%;
+	}
+	.hw-item {
+		width: 100%;
+		padding: 0;
+	}
+}
+</style>
+<body>
+	<div id=header>
+		<h1>Resume</h1>
+	</div>
+	<div id=navigator>
+		<div id=about-me><a href=#about-me>關於我</a></div>
+		<div id=reference><a href=#reference>參考資料</a></div>
+		<div id=hwdiv>
+			<a href=# id=hw>作業連結</a>
+			<div id=hw-drop>
+				<a class=hw-item href=#hw1>作業一</a>
+				<a class=hw-item href=#hw2>作業二</a>
+				<a class=hw-item id=round href=#hw3>作業三</a>
+			</div>
+		</div>
+		
+	</div>
+	<div id=content>
+		<div class=text>
+			<h1>基本資料</h1>
+			<p>姓名：郭芝瑜</p>
+			<p>系級：資工08</p>
+			<p>學號：0416089</p>
+			<p>生日：1997/01/16</p>
+			<p>星座：摩羯座</p>
+			<p>血型：可能是Ａ型</p>
+			<p>興趣：畫畫、睡覺</p>
+			<p>喜歡吃的東西：馬鈴薯、鮭魚、蛋、肉</p>
+		</div>
+		<div class=text>
+			<h1>美食紀錄<h1>
+			<img src='https://i.imgur.com/CQ6AiJh.jpg'>
+			<img src='https://i.imgur.com/P8VBZGU.jpg'>
+			<img src='https://i.imgur.com/ZeCIiIY.jpg'>
+			<img src='https://i.imgur.com/xZXaNJ9.jpg'>
+			<img src='https://i.imgur.com/PYF5aSS.jpg'>
+			<img src='https://i.imgur.com/r1LoPEX.jpg'>
+		</div>
+	</div>
+	<div id=footer>
+		<p>嗨我是footer!</p>
+	</div>
+</body>
+</html>
